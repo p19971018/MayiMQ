@@ -1,0 +1,14 @@
+server:
+  # 服务端口
+  port: 8890
+  
+logging: 
+  level: 
+    root: INFO
+    org.springframework.web: ERROR
+
+MayiMQ: 
+  broker: 
+    url: 127.0.0.1
+    port: 8887
+    

@@ -1,0 +1,9 @@
+server:
+  # 服务端口
+  port: 8888
+  
+logging: 
+  level: 
+    root: info
+    org.springframework.web: ERROR
+    
